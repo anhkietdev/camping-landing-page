@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #8d8d8d;
+  background-color: #faf4f2;
+}
+.clear {
+  clear: both;
+}
+
+/* Header */
+.header {
+  background-color: #faf4f2;
+  padding: 10px 70px;
+}
+.header ul {
+  list-style: none;
+  margin-top: 10px;
+}
+.header a {
+  text-decoration: none;
+  color: #3b3735;
+  font-size: 18px;
+}
+.header li {
+  display: inline;
+  margin-right: 40px;
+}
+.header .active a {
+  color: #e76f51;
+}
+
+/* Carousel */
+.carousel {
+  background-image: url(../img/BG.png);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Activities */
+.activities {
+  margin-top: 100px;
+  text-align: center;
+}
+.activities_title {
+  color: #8d8d8d;
+  font-size: 24px;
+}
+.activities_items {
+  width: 25%;
+  float: left;
+  padding: 15px;
+}
+.activities_card {
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+}
+.activities_card img {
+  width: 100%;
+  border-radius: 20px;
+}
+.activities_img {
+  position: relative;
+}
+.activities_love {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #e76f51;
+  z-index: 10;
+  cursor: pointer;
+  font-weight: bold;
+}
+.activities_love img {
+  width: 80%;
+}
+.activities_detail h3 {
+  color: #3b3735;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 11px;
+}
+.activities_detail p {
+  line-height: 28px;
+  margin-top: 11px;
+  margin-bottom: 25px;
+}
+.activities_detail button {
+  padding: 13px 54px;
+  border-radius: 25px;
+  color: #8d8d8d;
+  border: transparent;
+  background-color: rgba(141, 141, 141, 0.2);
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.activities_viewall button {
+  color: #e76f51;
+  border: 1px solid #e76f51;
+  border-radius: 25px;
+  padding: 13px 71px;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.activities_detail button:hover,
+.activities_viewall button:hover {
+  color: white;
+  background-color: #e76f51;
+}
+
+/* Contact */
+.contact {
+  background-color: #f8e1db;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+.contact_left,
+.contact_right {
+  float: left;
+  width: 50%;
+  padding: 20px 60px;
+}
+.contact_left {
+  background: url(../img/mask.png);
+  background-size: cover;
+  background-position: center;
+}
+.contact_right {
+  padding-top: 70px;
+}
+.contact_right p {
+  margin: 12px 0 30px;
+}
+.contact_right h3 {
+  margin-bottom: 21px;
+}
+.contact_app,
+.contact_us {
+  float: left;
+  width: 50%;
+}
+.contact_us i {
+  color: #e76f51;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #f8e1db;
+  border-radius: 100px 100px 0 0;
+  padding: 100px 30px;
+  color: #3b3735;
+}
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+.footer_about {
+  float: left;
+  width: 40%;
+  line-height: 28px;
+  padding: 0 20px;
+}
+.footer_list {
+  float: left;
+  width: 60%;
+  padding: 0% 20px;
+}
+.footer_nav {
+  float: left;
+  width: 33.33%;
+}
+.footer_nav li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.footer_nav a {
+  text-decoration: none;
+  color: #3b3735;
+}
+.footer_copyrights {
+  text-align: center;
+  padding-top: 30px;
+}
